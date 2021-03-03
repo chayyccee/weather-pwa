@@ -1,25 +1,52 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "short_name": "Weather App",
+    "name" : "Weather App PWA",
+    "icons" : [
+        {
+            "src": "/images/logo.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+          },
+        {
+            "src": "/images/logo_1.png",
+            "type" : "image/png",
+            "sizes" : "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": ".",
+    "display" : "standalone",
+    "theme_color" : "#000000",
+    "background_color" : "#ffffff",
+    "scope": "/",
+    "shortcuts": [
+        {
+          "name": "Open Current Weather Info",
+          "short_name": "Weather Info",
+          "description": "View the current weather info of your favourite cities",
+          "url": ".",
+          "icons": [{ "src":  "/images/logo.png", "sizes": "192x192" }]
+        },
+        {
+          "name": "View Subscriptions",
+          "short_name": "Subscriptions",
+          "description": "View weather forecasts for tomorrow",
+          "url": ".",
+          "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+        }
+      ],
+      "description": "Weather forecast information",
+      "screenshots": [
+        {
+          "src": "/images/logo.png",
+          "type": "image/png",
+          "sizes": "540x720"
+        },
+        {
+          "src": "/images/logo.png",
+          "type": "image/png",
+          "sizes": "540x720"
+        }
+      ]
 }

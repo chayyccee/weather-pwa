@@ -4,6 +4,11 @@
 
 This project is focused on PWA functionality of an App and also is aimed at gaining full understanding of how PWAs work.
 This project passes all the [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) PWA aspects tests.
+
+Preview
+
+![Screenshot]()
+
 This project was bootstrapped with the [Create React App](https://github.com/facebook/create-react-app).
 
 visit [Here](https://pwa-weather-app-by-chinedu.netlify.app/) to view the app in your browser.

@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Progressive Weather Application created using React JS and Open weather API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![pas](https://img.shields.io/static/v1?&message=ProgressiveApp.Store&color=74b9ff&style=flat&label=Follow%20Weather%20App%20by%20Chinedu%20at)](https://progressiveapp.store/pwa/Weather-App-by-Chinedu)
+
+This project is focused on PWA functionality of an App and also is aimed at gaining full understanding of how PWAs work.
+This project passes all the [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) PWA aspects tests.
+This project was bootstrapped with the [Create React App](https://github.com/facebook/create-react-app).
+
+visit [Here](https://pwa-weather-app-by-chinedu.netlify.app/) to view the app in your browser.
 
 ## Available Scripts
 
@@ -45,26 +51,65 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+To learn about Open Weather API, check [here](https://openweathermap.org/api)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Learn about Netlify [here](https://docs.netlify.com/)
 
-### Analyzing the Bundle Size
+## Making This Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In making this PWA, I used the [Google Lighthouse Tool](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) to test the Application in dev and prod.
 
-### Making a Progressive Web App
+### Analyzing the PWA
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+So below are links that will give you further insights on the pass requirements and conditions for each test.
 
-### Advanced Configuration
+1). [Web app manifest and service worker meet the installability requirements](https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2). [Registers a service worker that controls page and start_url](https://web.dev/service-worker/?utm_source=lighthouse&utm_medium=devtools)
 
-### Deployment
+3). [Redirects HTTP traffic to HTTPS](https://web.dev/redirects-http/?utm_source=lighthouse&utm_medium=devtools)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4). [Configured for a custom splash screen](https://web.dev/splash-screen/?utm_source=lighthouse&utm_medium=devtools)
 
-### `yarn build` fails to minify
+5). [Sets a theme color for the address bar.](https://web.dev/themed-omnibox/?utm_source=lighthouse&utm_medium=devtools)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6). [Content is sized correctly for the viewport](https://web.dev/content-width/?utm_source=lighthouse&utm_medium=devtools)
+
+7). [Has a `<meta name="viewport">` tag with ```width``` or ```initial-scale```](https://web.dev/viewport/?utm_source=lighthouse&utm_medium=devtools)
+
+8). [Provides a valid ```apple-touch-icon```](https://web.dev/apple-touch-icon/?utm_source=lighthouse&utm_medium=devtools)
+
+9). [Manifest has a maskable icon](https://web.dev/maskable-icon-audit/?utm_source=lighthouse&utm_medium=devtools)
+
+    Please kindly note that number 3 won't pass while still in localhost, until deployment.
+
+## Deployment
+
+This App is deployed on [Netlify](https://pwa-weather-app-by-chinedu.netlify.app/)
+
+## If one or more test(s) fail - My little assistance
+
+In the event you want to build your PWA and test it using the [Google Lighthouse Tool](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en), It is almost certain that the source of your stress is in the ```manifest.json``` file.
+
+So please go to the link of the specific test that's failing from the tests links above, read carefully, study the code, understand it, compare the logic to yours and write your code.
+
+Now in addition to that, here are a few debug tips and boxes you should be sure to check,
+
+    1. Make absolutely certain that your manifest.json is properly linked in your index.html file.
+    2. Make sure that the keys and values in your manifest.json are all spelt correctly.
+    3. Make sure all icon files are in png fromat.
+    4. Make sure you are using "image/png" as your icons type value instead of "image.png" (when unaware, debugging this problem can give you grey hair).
+    5. Ensure you are using the right data structure. Know which are just objects and which are array of objects
+    6. If all is good in your manifest.json file, please mind your promises in the serviceWorker file.
+
+## License
+
+  MIT © Chinedu Eke  
+
+## Acknowledgments
+
+    - Javascript Mastery
+
+## Author
+
+  Chinedu Eke

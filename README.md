@@ -7,7 +7,7 @@ This project passes all the [Google Lighthouse](https://chrome.google.com/websto
 
 Preview
 
-![Screenshot]()
+![Screenshot](https://github.com/chayyccee/weather-pwa/blob/master/src/images/screenshots/intro.png)
 
 This project was bootstrapped with the [Create React App](https://github.com/facebook/create-react-app).
 

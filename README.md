@@ -66,6 +66,10 @@ In making this PWA, I used the [Google Lighthouse Tool](https://chrome.google.co
 
 ### Analyzing the PWA
 
+The app passed all the tests as seen below
+
+![Test Screenshot](https://github.com/chayyccee/weather-pwa/blob/master/src/images/screenshots/test.png)
+
 So below are links that will give you further insights on the pass requirements and conditions for each test.
 
 1). [Web app manifest and service worker meet the installability requirements](https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools)
@@ -91,6 +95,18 @@ So below are links that will give you further insights on the pass requirements 
 ## Deployment
 
 This App is deployed on [Netlify](https://pwa-weather-app-by-chinedu.netlify.app/)
+
+### App look on Desktop
+
+![Desktop Screenshot](https://github.com/chayyccee/weather-pwa/blob/master/src/images/screenshots/pwa2.png)
+
+### App look on mobile
+
+![Mobile Screenshot](https://github.com/chayyccee/weather-pwa/blob/master/src/images/screenshots/pwa3.png)
+
+### App look on mobile when offline
+
+![Mobile offline Screenshot](https://github.com/chayyccee/weather-pwa/blob/master/src/images/screenshots/pwa4.png)
 
 ## If one or more test(s) fail - My little assistance
 
